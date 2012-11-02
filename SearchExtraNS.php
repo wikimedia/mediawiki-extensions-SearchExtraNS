@@ -1,44 +1,40 @@
 <?php
 
 if ( !defined( 'MEDIAWIKI' ) ) {
-        die( 'This file is a MediaWiki extension, it is not a valid entry point' );
+	die( 'This file is a MediaWiki extension, it is not a valid entry point' );
 }
 
+$wgExtensionCredits['parserhook'][] = array(
+	'name' => 'SearchExtraNS',
+	'url' => '',
+	'author' => array( 'Roland Unger', 'Hans Musil' ),
+);
 
-$wgExtensionFunctions[] = 'wfSetupSearchExtraNS';
-$wgExtensionCredits['parserhook'][] = array( 'name' => 'SearchExtraNS', 'url' => 
-'http://wikivoyage.org/tech/SearchExtraNS-Extension', 'author' => 'Roland Unger / Hans Musil' );
+$wgSearchExtraNamespaces = false;
 
+class SearchExtraNS {
 
-
-class SearchExtraNS
-{
-  public static function NearMatch( $term, &$title)
-  {
+	/**
+	 * @param $term string
+	 * @param $title Title
+	 * @return bool
+	 */
+	public static function NearMatch( $term, &$title ) {
 		global $wgSearchExtraNamespaces;
 
-		if( !is_array( $wgSearchExtraNamespaces )){ return true;};
+		if( !is_array( $wgSearchExtraNamespaces ) ){
+			return true;
+		}
 
-		foreach( $wgSearchExtraNamespaces as $ens)
-		{
+		foreach( $wgSearchExtraNamespaces as $ens ) {
 			$title = Title::newFromText( $term, $ens );
 			if ( $title && $title->exists() ) {
 				return false;
 			}
-		};
+		}
 
 		return true;
 	}
 }
 
-
-
-function wfSetupSearchExtraNS()
-{
-	global $wgHooks;
-
-	$wgHooks['SearchEngineAfterNoDirectMatch'][] = 'SearchExtraNS::NearMatch';
-}
-
-
-?>
+$wgHooks['SearchEngineAfterNoDirectMatch'][] = 'SearchExtraNS::NearMatch';

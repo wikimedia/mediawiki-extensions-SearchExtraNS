@@ -6,7 +6,8 @@ if ( !defined( 'MEDIAWIKI' ) ) {
 
 $wgExtensionCredits['parserhook'][] = array(
 	'name' => 'SearchExtraNS',
-	'url' => '',
+	//'url' => '',
+	//'descriptionmsg' => 'searchextrans-desc',
 	'author' => array( 'Roland Unger', 'Hans Musil' ),
 );
 
@@ -37,4 +38,4 @@ class SearchExtraNS {
 	}
 }
 
-$wgHooks['SearchEngineAfterNoDirectMatch'][] = 'SearchExtraNS::NearMatch';
+$wgHooks['SearchAfterNoDirectMatch'][] = 'SearchExtraNS::NearMatch';

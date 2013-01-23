@@ -5,11 +5,14 @@ if ( !defined( 'MEDIAWIKI' ) ) {
 }
 
 $wgExtensionCredits['parserhook'][] = array(
+	'path' => __FILE__,
 	'name' => 'SearchExtraNS',
-	//'url' => '',
-	//'descriptionmsg' => 'searchextrans-desc',
+	'url' => 'https://www.mediawiki.org/wiki/Extension:SearchExtraNS',
+	'descriptionmsg' => 'searchextrans-desc',
 	'author' => array( 'Roland Unger', 'Hans Musil' ),
 );
+
+$wgExtensionMessagesFiles['SearchExtraNS'] = __DIR__ . '/SearchExtraNS.i18n.php';
 
 $wgSearchExtraNamespaces = false;
 

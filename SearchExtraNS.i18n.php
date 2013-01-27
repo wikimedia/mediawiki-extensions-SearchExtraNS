@@ -59,6 +59,13 @@ $messages['mk'] = array(
 	'searchextrans-desc' => 'Пребарува по други укажани именски простори ако нема непосредно совпаѓање',
 );
 
+/** Dutch (Nederlands)
+ * @author Siebrand
+ */
+$messages['nl'] = array(
+	'searchextrans-desc' => 'Doorzoekt extra ingestelde naamruimten als er geen direct resultaat is gevonden',
+);
+
 /** tarandíne (tarandíne)
  * @author Joetaras
  */
@@ -71,4 +78,11 @@ $messages['roa-tara'] = array(
  */
 $messages['uk'] = array(
 	'searchextrans-desc' => 'Шукає додаткові вказані простори імен, якщо не знайдено прямого співпадіння',
+);
+
+/** Simplified Chinese (中文（简体）‎)
+ * @author Yfdyh000
+ */
+$messages['zh-hans'] = array(
+	'searchextrans-desc' => '如果没有直接匹配到结果，搜索更多指定的命名空间',
 );

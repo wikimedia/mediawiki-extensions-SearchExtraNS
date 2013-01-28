@@ -17,6 +17,13 @@ $messages['qqq'] = array(
 	'searchextrans-desc' => '{{desc|name=Search Extra NS|url=http://www.mediawiki.org/wiki/Extension:SearchExtraNS}}',
 );
 
+/** Asturian (asturianu)
+ * @author Xuacu
+ */
+$messages['ast'] = array(
+	'searchextrans-desc' => "Gueta nos espacios de nomes estra conseñaos si nun s'alcuentra una coincidencia direuta",
+);
+
 /** German (Deutsch)
  * @author Metalhead64
  */

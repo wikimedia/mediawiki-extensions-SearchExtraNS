@@ -31,6 +31,13 @@ $messages['de'] = array(
 	'searchextrans-desc' => 'Ermöglicht das Durchsuchen zusätzlicher angegebener Namensräume, falls keine direkten Treffer gefunden werden können',
 );
 
+/** Spanish (español)
+ * @author Fitoschido
+ */
+$messages['es'] = array(
+	'searchextrans-desc' => 'Busca espacios de nombres específicos adicionales si no se encuentra una coincidencia directa',
+);
+
 /** French (français)
  * @author Gomoko
  */

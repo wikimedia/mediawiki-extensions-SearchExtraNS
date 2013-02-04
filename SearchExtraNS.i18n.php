@@ -73,6 +73,13 @@ $messages['ko'] = array(
 	'searchextrans-desc' => '일치하는 것이 없으면 지정한 이름공간을 더 찾습니다',
 );
 
+/** Luxembourgish (Lëtzebuergesch)
+ * @author Robby
+ */
+$messages['lb'] = array(
+	'searchextrans-desc' => 'Sicht an de spezifizéierten Nummräim wa keen direkten Treffer fonnt gouf',
+);
+
 /** Macedonian (македонски)
  * @author Bjankuloski06
  */

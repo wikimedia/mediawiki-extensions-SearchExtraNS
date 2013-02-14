@@ -108,6 +108,13 @@ $messages['uk'] = array(
 	'searchextrans-desc' => 'Шукає додаткові вказані простори імен, якщо не знайдено прямого співпадіння',
 );
 
+/** Vietnamese (Tiếng Việt)
+ * @author Minh Nguyen
+ */
+$messages['vi'] = array(
+	'searchextrans-desc' => 'Tìm kiếm trong các không gian tên thay thế nếu không tìm thấy kết quả trong các không gian tên mặc định',
+);
+
 /** Simplified Chinese (中文（简体）‎)
  * @author Yfdyh000
  */

@@ -87,6 +87,13 @@ $messages['mk'] = array(
 	'searchextrans-desc' => 'Пребарува по други укажани именски простори ако нема непосредно совпаѓање',
 );
 
+/** Malay (Bahasa Melayu)
+ * @author Anakmalaysia
+ */
+$messages['ms'] = array(
+	'searchextrans-desc' => 'Mencari ruang nama tambahan yang tertentu jika padanan langsung tidak dijumpai',
+);
+
 /** Dutch (Nederlands)
  * @author Siebrand
  */

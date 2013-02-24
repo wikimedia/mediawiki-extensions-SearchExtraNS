@@ -52,6 +52,13 @@ $messages['gl'] = array(
 	'searchextrans-desc' => 'Procura nos espazos de nomes adicionais especificados se non se atopa unha coincidencia directa',
 );
 
+/** Upper Sorbian (hornjoserbsce)
+ * @author Michawiki
+ */
+$messages['hsb'] = array(
+	'searchextrans-desc' => 'Pyta přidatnje podate mjenowe rumy, jeli žadyn direktny wotpowědnik njeje so namakał',
+);
+
 /** Italian (italiano)
  * @author Beta16
  */

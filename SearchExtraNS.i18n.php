@@ -24,6 +24,13 @@ $messages['ast'] = array(
 	'searchextrans-desc' => "Gueta nos espacios de nomes estra conseñaos si nun s'alcuentra una coincidencia direuta",
 );
 
+/** Czech (česky)
+ * @author Mormegil
+ */
+$messages['cs'] = array(
+	'searchextrans-desc' => 'Pokud není nalezena přímá shoda, prohledává další uvedené jmenné prostory',
+);
+
 /** German (Deutsch)
  * @author Metalhead64
  */

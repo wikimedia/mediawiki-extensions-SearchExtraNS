@@ -122,6 +122,13 @@ $messages['roa-tara'] = array(
 	'searchextrans-desc' => "Cerche namespace specifeche extra ce non ge ste 'nu combronde dirette",
 );
 
+/** Swedish (svenska)
+ * @author Lokal Profil
+ */
+$messages['sv'] = array(
+	'searchextrans-desc' => 'Söker i extra specificerade namnrymder om ingen exakt träff hittas',
+);
+
 /** Ukrainian (українська)
  * @author Ата
  */

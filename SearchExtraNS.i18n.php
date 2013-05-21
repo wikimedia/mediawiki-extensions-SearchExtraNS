@@ -59,6 +59,13 @@ $messages['gl'] = array(
 	'searchextrans-desc' => 'Procura nos espazos de nomes adicionais especificados se non se atopa unha coincidencia directa',
 );
 
+/** Hebrew (עברית)
+ * @author Amire80
+ */
+$messages['he'] = array(
+	'searchextrans-desc' => 'חיפוש במרחבי שמות נוספים אם לא נמצאה התאמה ישירה',
+);
+
 /** Upper Sorbian (hornjoserbsce)
  * @author Michawiki
  */

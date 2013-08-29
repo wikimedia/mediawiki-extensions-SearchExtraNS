@@ -122,6 +122,13 @@ $messages['nl'] = array(
 	'searchextrans-desc' => 'Doorzoekt extra ingestelde naamruimten als er geen direct resultaat is gevonden',
 );
 
+/** Occitan (occitan)
+ * @author Cedric31
+ */
+$messages['oc'] = array(
+	'searchextrans-desc' => 'Recèrca dins los espacis de nom suplementaris especificats se cap de correspondéncia dirècta es pas trobada',
+);
+
 /** tarandíne (tarandíne)
  * @author Joetaras
  */

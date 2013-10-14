@@ -136,6 +136,13 @@ $messages['roa-tara'] = array(
 	'searchextrans-desc' => "Cerche namespace specifeche extra ce non ge ste 'nu combronde dirette",
 );
 
+/** Russian (русский)
+ * @author Okras
+ */
+$messages['ru'] = array(
+	'searchextrans-desc' => 'Ищет дополнительно указанные пространства имён, если точного совпадения не было найдено.',
+);
+
 /** Swedish (svenska)
  * @author Lokal Profil
  */

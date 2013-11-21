@@ -91,7 +91,7 @@ $messages['ja'] = array(
  * @author 아라
  */
 $messages['ko'] = array(
-	'searchextrans-desc' => '일치하는 것이 없으면 지정한 이름공간을 더 찾습니다',
+	'searchextrans-desc' => '완전히 일치하는 것이 없으면 지정한 이름공간을 더 검색합니다',
 );
 
 /** Luxembourgish (Lëtzebuergesch)

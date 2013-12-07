@@ -24,7 +24,7 @@ $messages['ast'] = array(
 	'searchextrans-desc' => "Gueta nos espacios de nomes estra conseñaos si nun s'alcuentra una coincidencia direuta",
 );
 
-/** Czech (česky)
+/** Czech (čeština)
  * @author Mormegil
  */
 $messages['cs'] = array(

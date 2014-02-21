@@ -143,6 +143,13 @@ $messages['ru'] = array(
 	'searchextrans-desc' => 'Ищет дополнительно указанные пространства имён, если точного совпадения не было найдено.',
 );
 
+/** Scots (Scots)
+ * @author John Reid
+ */
+$messages['sco'] = array(
+	'searchextrans-desc' => 'Rakes eixtra speceefied namespaces gif nae direct match is foond',
+);
+
 /** Swedish (svenska)
  * @author Lokal Profil
  */

@@ -45,6 +45,13 @@ $messages['es'] = array(
 	'searchextrans-desc' => 'Busca espacios de nombres específicos adicionales si no se encuentra una coincidencia directa',
 );
 
+/** Persian (فارسی)
+ * @author Armin1392
+ */
+$messages['fa'] = array(
+	'searchextrans-desc' => 'اگر هیچ تطبیق راهنمایی پیدا نشود،جستجوهای اضافی فضاهای نام را مشخص کرده‌اند.',
+);
+
 /** French (français)
  * @author Gomoko
  */

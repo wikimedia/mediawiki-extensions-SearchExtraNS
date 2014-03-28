@@ -12,6 +12,7 @@ $wgExtensionCredits['parserhook'][] = array(
 	'author' => array( 'Roland Unger', 'Hans Musil' ),
 );
 
+$wgMessagesDirs['SearchExtraNS'] = __DIR__ . '/i18n';
 $wgExtensionMessagesFiles['SearchExtraNS'] = __DIR__ . '/SearchExtraNS.i18n.php';
 
 $wgSearchExtraNamespaces = false;

@@ -1,8 +1,8 @@
 {
-    "@metadata": {
-        "authors": [
-            "Lokal Profil"
-        ]
-    },
-    "searchextrans-desc": "Söker i extra specificerade namnrymder om ingen exakt träff hittas"
+	"@metadata": {
+		"authors": [
+			"Lokal Profil"
+		]
+	},
+	"searchextrans-desc": "Söker i extra specificerade namnrymder om ingen exakt träff hittas"
 }

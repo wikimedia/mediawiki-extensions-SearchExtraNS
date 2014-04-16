@@ -1,8 +1,8 @@
 {
-    "@metadata": {
-        "authors": [
-            "Metalhead64"
-        ]
-    },
-    "searchextrans-desc": "Ermöglicht das Durchsuchen zusätzlicher angegebener Namensräume, falls keine direkten Treffer gefunden werden können"
+	"@metadata": {
+		"authors": [
+			"Metalhead64"
+		]
+	},
+	"searchextrans-desc": "Ermöglicht das Durchsuchen zusätzlicher angegebener Namensräume, falls keine direkten Treffer gefunden werden können"
 }

@@ -2,8 +2,9 @@
 	"@metadata": {
 		"authors": [
 			"Raymond",
-			"Shirayuki"
+			"Shirayuki",
+			"Umherirrender"
 		]
 	},
-	"searchextrans-desc": "{{desc|name=Search Extra NS|url=http://www.mediawiki.org/wiki/Extension:SearchExtraNS}}"
+	"searchextrans-desc": "{{desc|name=Search Extra NS|url=https://www.mediawiki.org/wiki/Extension:SearchExtraNS}}"
 }

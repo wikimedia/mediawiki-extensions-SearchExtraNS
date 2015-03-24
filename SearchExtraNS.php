@@ -13,7 +13,6 @@ $wgExtensionCredits['parserhook'][] = array(
 );
 
 $wgMessagesDirs['SearchExtraNS'] = __DIR__ . '/i18n';
-$wgExtensionMessagesFiles['SearchExtraNS'] = __DIR__ . '/SearchExtraNS.i18n.php';
 
 $wgSearchExtraNamespaces = false;
 

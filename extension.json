@@ -1,0 +1,27 @@
+{
+	"name": "SearchExtraNS",
+	"author": [
+		"Roland Unger",
+		"Hans Musil"
+	],
+	"url": "https://www.mediawiki.org/wiki/Extension:SearchExtraNS",
+	"descriptionmsg": "searchextrans-desc",
+	"type": "parserhook",
+	"MessagesDirs": {
+		"SearchExtraNS": [
+			"i18n"
+		]
+	},
+	"AutoloadClasses": {
+		"SearchExtraNS": "SearchExtraNS.class.php"
+	},
+	"Hooks": {
+		"SearchAfterNoDirectMatch": [
+			"SearchExtraNS::NearMatch"
+		]
+	},
+	"config": {
+		"SearchExtraNamespaces": false
+	},
+	"manifest_version": 1
+}

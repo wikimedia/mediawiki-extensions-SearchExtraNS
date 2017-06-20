@@ -10,7 +10,7 @@ class SearchExtraNS {
 	public static function NearMatch( $term, &$title ) {
 		global $wgSearchExtraNamespaces;
 
-		if ( !is_array( $wgSearchExtraNamespaces ) ){
+		if ( !is_array( $wgSearchExtraNamespaces ) ) {
 			return true;
 		}
 

@@ -1,8 +1,9 @@
 {
 	"@metadata": {
 		"authors": [
-			"Yfdyh000"
+			"Yfdyh000",
+			"Liuxinyu970226"
 		]
 	},
-	"searchextrans-desc": "如果没有直接匹配到结果，搜索更多指定的命名空间"
+	"searchextrans-desc": "如果没有直接匹配到结果，搜索更多指定的名字空间"
 }

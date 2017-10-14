@@ -3,10 +3,10 @@
 class SearchExtraNS {
 
 	/**
-	* @param $term string
-	* @param $title Title
-	* @return bool
-	*/
+	 * @param string $term
+	 * @param Title &$title
+	 * @return bool
+	 */
 	public static function NearMatch( $term, &$title ) {
 		global $wgSearchExtraNamespaces;
 

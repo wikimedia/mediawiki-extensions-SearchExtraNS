@@ -13,11 +13,11 @@
 		]
 	},
 	"AutoloadClasses": {
-		"SearchExtraNS": "SearchExtraNS.class.php"
+		"SearchExtraNSHooks": "includes/SearchExtraNSHooks.php"
 	},
 	"Hooks": {
 		"SearchAfterNoDirectMatch": [
-			"SearchExtraNS::NearMatch"
+			"SearchExtraNSHooks::NearMatch"
 		]
 	},
 	"config": {

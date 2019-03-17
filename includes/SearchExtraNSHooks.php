@@ -1,6 +1,6 @@
 <?php
 
-class SearchExtraNS {
+class SearchExtraNSHooks {
 
 	/**
 	 * @param string $term

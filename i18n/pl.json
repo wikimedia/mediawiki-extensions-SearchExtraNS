@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Railfail536"
+			"Railfail536",
+			"Rail"
 		]
 	},
 	"searchextrans-desc": "Przeszukuje dodatkowo zdefiniowane przestrzenie nazw, jeżeli bezpośredni wynik nie został znaleziony"

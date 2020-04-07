@@ -1,8 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Ата",
-			"Piramidion"
+			"Piramidion",
+			"Ата"
 		]
 	},
 	"searchextrans-desc": "Шукає додаткові вказані простори назв, якщо не знайдено прямого збігу"

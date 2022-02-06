@@ -1,6 +1,10 @@
 <?php
 
-class SearchExtraNSHooks {
+namespace MediaWiki\Extension\SearchExtraNS;
+
+use Title;
+
+class Hooks {
 
 	/**
 	 * @param string $term

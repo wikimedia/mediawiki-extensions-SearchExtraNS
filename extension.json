@@ -13,12 +13,12 @@
 			"i18n"
 		]
 	},
-	"AutoloadClasses": {
-		"SearchExtraNSHooks": "includes/SearchExtraNSHooks.php"
+	"AutoloadNamespaces": {
+		"MediaWiki\\Extension\\SearchExtraNS\\": "includes/"
 	},
 	"Hooks": {
 		"SearchAfterNoDirectMatch": [
-			"SearchExtraNSHooks::NearMatch"
+			"MediaWiki\\Extension\\SearchExtraNS\\Hooks::NearMatch"
 		]
 	},
 	"config": {
@@ -28,6 +28,6 @@
 	},
 	"manifest_version": 2,
 	"requires": {
-		"MediaWiki": ">= 1.29.0"
+		"MediaWiki": ">= 1.31.0"
 	}
 }

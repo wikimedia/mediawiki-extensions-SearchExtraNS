@@ -1,8 +1,9 @@
 {
 	"@metadata": {
 		"authors": [
-			"Gomoko"
+			"Gomoko",
+			"Verdy p"
 		]
 	},
-	"searchextrans-desc": "Recherche dans les espaces de nom supplémentaires spécifiés si aucune correspondance directe n’est trouvée"
+	"searchextrans-desc": "Recherche dans des espaces de noms spécifiés supplémentaires si aucune correspondance directe n’est trouvée."
 }

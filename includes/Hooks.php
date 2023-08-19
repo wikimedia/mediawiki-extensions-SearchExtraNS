@@ -2,7 +2,7 @@
 
 namespace MediaWiki\Extension\SearchExtraNS;
 
-use Title;
+use MediaWiki\Title\Title;
 
 class Hooks {
 

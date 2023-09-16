@@ -2,16 +2,17 @@
 
 namespace MediaWiki\Extension\SearchExtraNS;
 
+use MediaWiki\Search\Hook\SearchAfterNoDirectMatchHook;
 use MediaWiki\Title\Title;
 
-class Hooks {
+class Hooks implements SearchAfterNoDirectMatchHook {
 
 	/**
 	 * @param string $term
 	 * @param Title &$title
 	 * @return bool
 	 */
-	public static function NearMatch( $term, &$title ) {
+	public function onSearchAfterNoDirectMatch( $term, &$title ) {
 		global $wgSearchExtraNamespaces;
 
 		if ( !is_array( $wgSearchExtraNamespaces ) ) {

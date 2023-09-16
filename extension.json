@@ -17,9 +17,12 @@
 		"MediaWiki\\Extension\\SearchExtraNS\\": "includes/"
 	},
 	"Hooks": {
-		"SearchAfterNoDirectMatch": [
-			"MediaWiki\\Extension\\SearchExtraNS\\Hooks::NearMatch"
-		]
+		"SearchAfterNoDirectMatch": "main"
+	},
+	"HookHandlers": {
+		"main": {
+			"class": "MediaWiki\\Extension\\SearchExtraNS\\Hooks"
+		}
 	},
 	"config": {
 		"SearchExtraNamespaces": {
